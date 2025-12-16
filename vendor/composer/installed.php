@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'efc056570104b0cd8a28af1224af3dcbbef4d20a',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -382,6 +382,15 @@
                 0 => 'v12.42.0',
             ),
         ),
+        'inertiajs/inertia-laravel' => array(
+            'pretty_version' => 'v2.0.15',
+            'version' => '2.0.15.0',
+            'reference' => 'e86a3a82c9fca27454f7516b67790445b1001e94',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../inertiajs/inertia-laravel',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -407,9 +416,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'efc056570104b0cd8a28af1224af3dcbbef4d20a',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1330,6 +1339,15 @@
             'install_path' => __DIR__ . '/../theseer/tokenizer',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'tightenco/ziggy' => array(
+            'pretty_version' => 'v2.6.0',
+            'version' => '2.6.0.0',
+            'reference' => 'cccc6035c109daab03a33926b3a8499bedbed01f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tightenco/ziggy',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'tijsverkoyen/css-to-inline-styles' => array(
             'pretty_version' => 'v2.4.0',
