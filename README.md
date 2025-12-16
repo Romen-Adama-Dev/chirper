@@ -4,31 +4,58 @@
 
 # Chirper
 
-This is a demo application for the Laravel Learn Bootcamp mini course that can be found at [https://laravel.com/learn](https://laravel.com/learn).
+Chirper is a completed demo application developed as part of the **Laravel Learn Bootcamp**.  
+The project has been fully implemented following the course, covering the complete lifecycle of a modern Laravel application.
 
-## Video Tutorial
+## Project Status
 
-<p align="center">
-  <a href="https://youtu.be/MOLZOXqaomM">
-    <img src="https://img.youtube.com/vi/MOLZOXqaomM/maxresdefault.jpg" alt="Laravel Bootcamp Video Tutorial" width="600">
-  </a>
-</p>
+✅ **Finished**  
+All planned features from the bootcamp have been implemented and tested.
 
-Watch the walkthrough video: [https://youtu.be/MOLZOXqaomM](https://youtu.be/MOLZOXqaomM)
+## Features Implemented
 
-## About
-
-Chirper is a simple social media platform built with Laravel that demonstrates the framework's core features and best practices. The application showcases modern Laravel development techniques including:
-
-- Authentication and authorization
+- User registration, login and logout
+- Authentication and authorization with policies
+- Full CRUD for Chirps (create, read, update, delete)
+- Ownership-based permissions (users can only edit/delete their own chirps)
 - Database migrations and Eloquent ORM
-- Form validation and request handling
-- Blade templating engine
-- Tailwind CSS for styling
+- Form validation with user-friendly feedback
+- Blade components and layouts
+- Tailwind CSS + DaisyUI for UI styling
+- SQLite database for local development
+- Vite for asset bundling
 
-## Getting Started
+## Screenshots
 
-To run this application locally, follow the instructions in the [Laravel documentation](https://laravel.com/docs) to get your development server up and running or watch the video tutorial linked above.
+The application provides a simple social feed where authenticated users can publish, edit and delete chirps, with timestamps and edit indicators.
+
+## Tech Stack
+
+- **Laravel** 12
+- **PHP** 8.5
+- **Blade**
+- **Tailwind CSS**
+- **DaisyUI**
+- **SQLite**
+- **Vite**
+
+## Installation
+
+```bash
+git clone <your-repo-url>
+cd chirper
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+composer run dev
+```
+
+## Notes
+
+This repository represents the final state of the Chirper application after completing the Laravel Learn Bootcamp.  
+It is intended for learning, reference and portfolio purposes.
 
 ## License
 
